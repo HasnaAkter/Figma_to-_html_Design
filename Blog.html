@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link media="all" href="assets/css/style1.css" rel="stylesheet">
+    <link media="only screen and (max-width: 768px)" href="assets/css/style2.css" rel="stylesheet">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta name="robots" content="max-image-preview:large">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    <link rel="dns-prefetch" href="//s.w.org">
+    <!-- <link rel="alternate" type="application/rss+xml" title="Jevelin WordPress Theme » Feed" href="https://jevelin.shufflehound.com/feed/">
+    <link rel="alternate" type="application/rss+xml" title="Jevelin WordPress Theme » Comments Feed" href="https://jevelin.shufflehound.com/comments/feed/"> -->
+    <!-- <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+                window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jevelin.shufflehound.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.1"}};
+                !function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+            </script><script src="https://jevelin.shufflehound.com/wp-includes/js/wp-emoji-release.min.js?ver=5.8.1" type="text/javascript" defer=""></script> -->
+    <style type="text/css">
+    img.wp-smiley,
+    img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 .07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+    }
+    </style>
+    <style id="woocommerce-inline-inline-css" type="text/css">
+    .woocommerce form .form-row .required { visibility: visible; }
+    </style>
+    <style id="jevelin-plugins-inline-css" type="text/css">
+    .new-item { top: 3px!important;}
+    </style>
+    <style id="jevelin-responsive-inline-css" type="text/css">
+    .cf7-required:after,.woocommerce ul.products li.product a h3:hover,.woocommerce ul.products li.product ins,.post-title h2:hover,.sh-team:hover .sh-team-role,.sh-team-style4 .sh-team-role,.sh-team-style4 .sh-team-icon:hover i,.sh-header-search-submit,.woocommerce .woocommerce-tabs li.active a,.woocommerce .required,.sh-recent-products .woocommerce .star-rating span::before,.woocommerce .woocomerce-styling .star-rating span::before,.sh-jevelin-style3.woocommerce .product .product_meta .posted_in a,.sh-jevelin-style3 .sh-increase-numbers span:hover,.woocommerce div.product p.price,.woocomerce-styling li.product .amount,.post-format-icon,.sh-accent-color,.sh-blog-tag-item:hover h6,ul.page-numbers a:hover,.sh-portfolio-single-info-item i,.sh-filter-item.active,.sh-filter-item:hover,.sh-nav .sh-nav-cart li.menu-item-cart .mini_cart_item .amount,.sh-pricing-button-style3,#sidebar a:not(.sh-social-widgets-item):hover,.logged-in-as a:hover,.woocommerce table.shop_table.cart a:hover,.wrap-forms sup:before,.sh-comment-date a:hover,.reply a.comment-edit-link,.comment-respond #cancel-comment-reply-link,.sh-portfolio-title:hover,.sh-portfolio-single-related-mini h5:hover,.sh-header-top-10 .header-contacts-details-large-icon i,.sh-unyson-frontend-test.active,.plyr--full-ui input[type=range],.woocommerce td.woocommerce-grouped-product-list-item__label a:hover,.sh-accent-color-hover:hover {color: #294cfe!important;}.woocommerce p.stars.selected a:not(.active),.woocommerce p.stars.selected a.active,.sh-jevelin-style3 .woocommerce-form-coupon-toggle .sh-alert,.sh-jevelin-style3 .woocommerce-progress.step1 .woocommerce-header-item-cart,.sh-jevelin-style3 .woocommerce-progress.step2 .woocommerce-header-item-checkout,.sh-dropcaps-full-square,.sh-dropcaps-full-square-border,.masonry2 .post-content-container a.post-meta-comments:hover,.sh-header-builder-edit:hover {background-color: #294cfe;}.contact-form input[type="submit"],.sh-back-to-top:hover,.sh-dropcaps-full-square-tale,.sh-404-button,.woocommerce .wc-forward,.woocommerce .checkout-button,.woocommerce div.product form.cart button,.woocommerce .button:not(.add_to_cart_button),.sh-blog-tag-item,.sh-comments .submit,.sh-sidebar-search-active .search-field,.sh-nav .sh-nav-cart .buttons a.checkout,ul.page-numbers .current,ul.page-numbers .current:hover,.post-background,.post-item .post-category .post-category-list,.cart-icon span,.comment-input-required,.widget_tag_cloud a:hover,.widget_product_tag_cloud a:hover,.woocommerce #respond input#submit,.sh-portfolio-overlay1-bar,.sh-pricing-button-style4,.sh-pricing-button-style11,.sh-revslider-button2,.sh-portfolio-default2 .sh-portfolio-title,.sh-recent-posts-widgets-count,.sh-filter-item.active:after,.blog-style-largedate .post-comments,.sh-video-player-style1 .sh-video-player-image-play,.sh-video-player-style2 .sh-video-player-image-play:hover,.sh-video-player-style2 .sh-video-player-image-play:focus,.woocommerce .woocommerce-tabs li a:after,.sh-image-gallery .slick-dots li.slick-active button,.sh-recent-posts-carousel .slick-dots li.slick-active button,.sh-recent-products-carousel .slick-dots li.slick-active button,.sh-settings-container-bar .sh-progress-status-value,.post-password-form input[type="submit"],.wpcf7-form .wpcf7-submit,.sh-portfolio-filter-style3 .sh-filter-item.active .sh-filter-item-content,.sh-portfolio-filter-style4 .sh-filter-item:hover .sh-filter-item-content,.sh-woocommerce-categories-count,.sh-woocommerce-products-style2 .woocommerce ul.products li.product .add_to_cart_button:hover,.woocomerce-styling.sh-woocommerce-products-style2 ul.products li.product .add_to_cart_button:hover,.sh-icon-group-style2 .sh-icon-group-item:hover,.sh-text-background,.plyr--audio .plyr__control.plyr__tab-focus,.plyr--audio .plyr__control:hover,.plyr--audio .plyr__control[aria-expanded=true],.sh-jevelin-style3 .widget_price_filter .ui-slider .ui-slider-range {background-color: #294cfe!important;}.sh-cf7-style4 form input:not(.wpcf7-submit):focus {border-bottom-color: #294cfe;}::selection {background-color: #294cfe!important;color: #fff;}::-moz-selection {background-color: #294cfe!important;color: #fff;}.woocommerce .woocommerce-tabs li.active a {border-bottom-color: #294cfe!important;}#header-quote,.sh-dropcaps-full-square-tale:after,.sh-blog-tag-item:after,.widget_tag_cloud a:hover:after,.widget_product_tag_cloud a:hover:after {border-left-color: #294cfe!important;}.cart-icon .cart-icon-triangle-color {border-right-color: #294cfe!important;}.sh-back-to-top:hover,.widget_price_filter .ui-slider .ui-slider-handle,.sh-sidebar-search-active .search-field:hover,.sh-sidebar-search-active .search-field:focus,.sh-cf7-style2 form p input:not(.wpcf7-submit):focus,.sh-cf7-style2 form p textarea:focus,.sh-jevelin-style3 .order-total .woocommerce-Price-amount {border-color: #294cfe!important;}.post-item .post-category .arrow-right {border-left-color: #294cfe;}.woocommerce .wc-forward:hover,.woocommerce .button:not(.add_to_cart_button):hover,.woocommerce .checkout-button:hover,.woocommerce #respond input#submit:hover,.contact-form input[type="submit"]:hover,.wpcf7-form .wpcf7-submit:hover,.sh-video-player-image-play:hover,.sh-404-button:hover,.post-password-form input[type="submit"],.sh-pricing-button-style11:hover,.sh-revslider-button2.spacing-animation:not(.inverted):hover {background-color: #294cfe!important;}.sh-cf7-unyson form .wpcf7-submit {background-size: 200% auto;background-image: linear-gradient(to right, #294cfe , #294cfe, #294cfe);}.sh-mini-overlay-container,.sh-portfolio-overlay-info-box,.sh-portfolio-overlay-bottom .sh-portfolio-icon,.sh-portfolio-overlay-bottom .sh-portfolio-text,.sh-portfolio-overlay2-bar,.sh-portfolio-overlay2-data,.sh-portfolio-overlay3-data {background-color: rgba(41,76,254,0.75)!important;}.woocommerce-progress {background-color: rgba(41,76,254,0.07);}.woocommerce-progress-item {color: rgba(41,76,254,0.5);}.sh-jevelin-style3 .sh-increase-numbers span:hover,.widget_price_filter .price_slider_wrapper .ui-widget-content {background-color: rgba(41,76,254,0.12)!important;}.widget_price_filter .ui-slider .ui-slider-range {background-color: rgba(41,76,254,0.5)!important;}.sh-team-social-overlay2 .sh-team-image:hover .sh-team-overlay2,.sh-overlay-style1,.sh-portfolio-overlay4 {background-color: rgba(41,76,254,0.8)!important;}.sh-header .sh-nav > .current_page_item > a,.sh-header .sh-nav > .current-menu-ancestor > a,.sh-header .sh-nav > .current-menu-item > a,.sh-header-left-side .sh-nav > .current_page_item > a {color: #294cfe!important;}.sh-popover-mini:not(.sh-popover-mini-dark) {background-color: #294cfe;}.sh-popover-mini:not(.sh-popover-mini-dark):before {border-color: transparent transparent #294cfe #294cfe!important;}.sh-footer .sh-footer-widgets a:hover,.sh-footer .sh-footer-widgets li a:hover,.sh-footer .sh-footer-widgets h6:hover {color: #294cfe;}
+    </style>
+    <link rel="stylesheet" id="jevelin-theme-settings-css" href="assets/css/style3.css" type="text/css" media="all">
+
+    <!-- <link rel="https://api.w.org/" href="https://jevelin.shufflehound.com/wp-json/"><link rel="alternate" type="application/json" href="https://jevelin.shufflehound.com/wp-json/wp/v2/pages/583"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jevelin.shufflehound.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://jevelin.shufflehound.com/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 5.8.1">
+    <meta name="generator" content="WooCommerce 6.2.1">
+    <link rel="canonical" href="https://jevelin.shufflehound.com/blog/blog-masonry-standard/">
+    <link rel="shortlink" href="https://jevelin.shufflehound.com/?p=583">
+    <link rel="alternate" type="application/json+oembed" href="https://jevelin.shufflehound.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjevelin.shufflehound.com%2Fblog%2Fblog-masonry-standard%2F">
+    <link rel="alternate" type="text/xml+oembed" href="https://jevelin.shufflehound.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjevelin.shufflehound.com%2Fblog%2Fblog-masonry-standard%2F&amp;format=xml">
+    <link rel="icon" type="image/png" href="/fav.png"> -->
+    <meta name="description" content="Jevelin is multi-purpose WordPress theme for creating stunning websites. Features all the right tools needed for your next design.">
+    <meta name="keywords" content="agency, blog, business, corporate, creative, fitness, flat, modern, portfolio, responsive, shufflehound, startup, theme, wedding, wordpress, jevelin, multi-purpose, theme, themes">
+    
+    <!-- <script>
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+                ga('create', 'UA-57154054-2', 'auto');
+                ga('send', 'pageview');
+            </script> -->
+    
+    <!-- <script async="" src="https://static.hotjar.com/c/hotjar-2013664.js?sv=6"></script><script async="" src="https://script.hotjar.com/modules.352fddba5b21bbfc3a08.js" charset="utf-8"></script> -->
+    <style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style></head><body class="page-template page-template-page-blog page-template-page-blog-php page page-id-583 page-child parent-pageid-581 theme-jevelin woocommerce-js wpb-js-composer js-comp-ver-6.7.0 vc_responsive singular sh-header-mobile-spacing-compact sh-body-header-sticky sh-footer-parallax sh-blog-style2 carousel-dot-style1 carousel-dot-spacing-5px carousel-dot-size-standard sh-footer-paralalx-init" style="overflow: hidden visible;"><div class="sh-page-loader sh-table sh-page-loader-style-spinner" style="display: none;">
+    <div class="sh-table-cell">
+    <div id="loading-center-absolute">
+    <div class="object" id="object_one"></div>
+    <div class="object" id="object_two"></div>
+    <div class="object" id="object_three"></div>
+    </div>
+    </div>
+    </div>
+    <style type="text/css">
+            body {
+                overflow: hidden;
+            }
+    
+            .sh-page-loader {
+                background-color: rgba(255,255,255,0.98);
+            }
+    
+            .sk-cube-grid .sk-cube,
+            .sk-folding-cube .sk-cube:before,
+            .sk-spinner > div,
+            .sh-page-loader-style-spinner .object {
+                background-color: #294cfe!important;
+            }
+        </style>
+
+    <script src="assets/js/bootsrapjs.js"></script>
+    
+    <header style="background-color: lightgreen;  height: auto;">
+        <div class="container text-center">
+           
+            <div class="row">
+              <div class="col-12" ><p style="font-size: 54px; color: #252525; font-family: 'Poppins'
+                ;">Our Blog </p>
+              <p style="font-size: 18px; color: #252525
+              ;font-family: 'Poppins';" >News from WiztecBD and Around The World of Digital <br>
+                Services Agency</p>
+              </div>
+             
+            </div>
+          </div>
+    </header>
+    <div id="page-container" class="">
+    <div id="wrapper">
+    <div class="content-container sh-page-layout-default" style="">
+    <div class="container entry-content">
+    <div id="content" class="content-with-sidebar-right blog-page-list">
+    <div class="sh-group blog-list blog-style-masonry" style="position: relative; height: 0px; opacity: 1;">
+        <article id="post-4271" class="post-item post-4271 post type-post status-publish format-standard has-post-thumbnail hentry category-travel category-uncategorized tag-boat tag-dogs tag-team tag-travel tag-watchers" style="position: absolute; left: 0px; top: 0px; width: 700px; box-shadow: 12px 12px 12px 12px white;" >
+            <div class="post-container">
+            
+            <div class="post-meta-thumb">
+           <a href="Blog_detailes.html"> <img width="1029" height="868" style="border-radius: 5px 5px 0px 0px; " src="assets/img/image 24.png" ></a>
+        
+            </div>
+            <div class="post-content-container">
+            <a href="Blog_detailes.html" class="post-title">
+            <h2 itemprop="headline" style="font-family: 'Poppins'">
+                Delivering the best digital marketing </h2>
+            </a>
+            
+            <div class="post-content" itemprop="text" >
+            <p style="font-family: 'Poppins'">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+            </p>
+            </div>
+        
+            </div>
+            </div >
+            <div style="background-color:  lightgreen; height: 35px;  text-align: center;" >
+                
+                    <i class="fa fa-user-o" style="margin-left: 25px; color: white; margin-top: 10px;" aria-hidden="true"></i> <span style="color:  white;">By Daliy</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: white;"></i> <span style="color: white;">16 Dec, 2022</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span> <i style="margin-left: 25px;color: white;" class="fa fa-eraser" aria-hidden="true"></i> <span style="color: white;">Digital Markating</span>
+              
+        
+            </div>
+        <div style="margin-top: 10px;">
+            <button style="background-color: white;
+            color: black;
+            border: 2px solid #e7e7e7;" class="button button4">Read More <i style="margin-left: 5px;" class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+            </article>
+            <article id="post-4271" class="post-item post-4271 post type-post status-publish format-standard has-post-thumbnail hentry category-travel category-uncategorized tag-boat tag-dogs tag-team tag-travel tag-watchers" style="position: absolute; left: 0px; top: 0px; width: 700px; box-shadow: 12px 12px 12px 12px white;" >
+                <div class="post-container">
+                
+                <div class="post-meta-thumb">
+                <img width="1029" height="868" style="border-radius: 5px 5px 0px 0px; " src="assets/img/image 24.png" >
+            
+                </div>
+                <div class="post-content-container">
+                <a href="" class="post-title">
+                <h2 itemprop="headline" style="font-family: 'Poppins'">
+                    Delivering the best digital marketing </h2>
+                </a>
+                
+                <div class="post-content" itemprop="text" >
+                <p style="font-family: 'Poppins'">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                </div>
+            
+                </div>
+                </div >
+                <div style="background-color:  lightgreen; height: 35px;  text-align: center;" >
+                    
+                        <i class="fa fa-user-o" style="margin-left: 25px; color: white; margin-top: 10px;" aria-hidden="true"></i> <span style="color:  white;">By Daliy</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: white;"></i> <span style="color: white;">16 Dec, 2022</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span> <i style="margin-left: 25px;color: white;" class="fa fa-eraser" aria-hidden="true"></i> <span style="color: white;">Digital Markating</span>
+                  
+            
+                </div>
+            <div style="margin-top: 10px;">
+                <button style="background-color: white;
+                color: black;
+                border: 2px solid #e7e7e7;" class="button button4">Read More <i style="margin-left: 5px;" class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+                </article>
+                <article id="post-4271" class="post-item post-4271 post type-post status-publish format-standard has-post-thumbnail hentry category-travel category-uncategorized tag-boat tag-dogs tag-team tag-travel tag-watchers" style="position: absolute; left: 0px; top: 0px; width: 700px; box-shadow: 12px 12px 12px 12px white;" >
+                    <div class="post-container">
+                    
+                    <div class="post-meta-thumb">
+                    <img width="1029" height="868" style="border-radius: 5px 5px 0px 0px; " src="assets/img/image 24.png" >
+                
+                    </div>
+                    <div class="post-content-container">
+                    <a href="" class="post-title">
+                    <h2 itemprop="headline" style="font-family: 'Poppins'">
+                        Delivering the best digital marketing </h2>
+                    </a>
+                    
+                    <div class="post-content" itemprop="text" >
+                    <p style="font-family: 'Poppins'">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                    </p>
+                    </div>
+                
+                    </div>
+                    </div >
+                    <div style="background-color:  lightgreen; height: 35px;  text-align: center;" >
+                        
+                            <i class="fa fa-user-o" style="margin-left: 25px; color: white; margin-top: 10px;" aria-hidden="true"></i> <span style="color:  white;">By Daliy</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: white;"></i> <span style="color: white;">16 Dec, 2022</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span> <i style="margin-left: 25px;color: white;" class="fa fa-eraser" aria-hidden="true"></i> <span style="color: white;">Digital Markating</span>
+                      
+                
+                    </div>
+                <div style="margin-top: 10px;">
+                    <button style="background-color: white;
+                    color: black;
+                    border: 2px solid #e7e7e7;" class="button button4">Read More <i style="margin-left: 5px;" class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+                    </article>
+                    <article id="post-4271" class="post-item post-4271 post type-post status-publish format-standard has-post-thumbnail hentry category-travel category-uncategorized tag-boat tag-dogs tag-team tag-travel tag-watchers" style="position: absolute; left: 0px; top: 0px; width: 700px; box-shadow: 12px 12px 12px 12px white;" >
+                        <div class="post-container">
+                        
+                        <div class="post-meta-thumb">
+                        <img width="1029" height="868" style="border-radius: 5px 5px 0px 0px; " src="assets/img/image 24.png" >
+                    
+                        </div>
+                        <div class="post-content-container">
+                        <a href="" class="post-title">
+                        <h2 itemprop="headline" style="font-family: 'Poppins'">
+                            Delivering the best digital marketing </h2>
+                        </a>
+                        
+                        <div class="post-content" itemprop="text" >
+                        <p style="font-family: 'Poppins'">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                        </p>
+                        </div>
+                    
+                        </div>
+                        </div >
+                        <div style="background-color:  lightgreen; height: 35px;  text-align: center;" >
+                            
+                                <i class="fa fa-user-o" style="margin-left: 25px; color: white; margin-top: 10px;" aria-hidden="true"></i> <span style="color:  white;">By Daliy</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: white;"></i> <span style="color: white;">16 Dec, 2022</span> <span style="height: 10px; border: 2px solid rgb(255, 255, 255); margin-left: 25px; "></span> <i style="margin-left: 25px;color: white;" class="fa fa-eraser" aria-hidden="true"></i> <span style="color: white;">Digital Markating</span>
+                          
+                    
+                        </div>
+                    <div style="margin-top: 10px;">
+                        <button style="background-color: white;
+                        color: black;
+                        border: 2px solid #e7e7e7;" class="button button4">Read More <i style="margin-left: 5px;" class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+                        </article>
+
+
+    </div>
+    <div class="sh-pagination sh-default-color"><ul class="page-numbers">
+        <li><a class="next page-numbers" href=""><i class="fa fa-chevron-left" aria-hidden="true"></i></a></li>
+    <li><a class="page-numbers" href="" style="background-color: white">1</a></li>
+    <li><span aria-current="page" style="background-color: lawngreen;">2</span></li>
+    <li><span aria-current="page"style="background-color: white" >3</span></li>
+    <li><a class="page-numbers" style="background-color: white" href="">4</a></li>
+    <li><a class="next page-numbers" href=""><i class="fa fa-chevron-right" aria-hidden="true"></i></a></li>
+    </ul>
+    </div>
+    </div>
+    <div id="sidebar" class="sidebar-right" role="complementary" itemscope="itemscope" itemtype="">
+    <div id="search-2" class="widget-item widget_search">
+    <form method="get" class="search-form" action="">
+    <div >
+    <label>
+    <input style="border: 1px solid rgb(0, 255, 60) ;" type="search" class="sh-sidebar-search search-field" placeholder="Search here..." value="" name="s" title="Search text" required="">
+    </label>
+    <button type="submit" class="search-submit">
+        <i class="fa fa-search" aria-hidden="true"></i>
+    </button>
+    </div>
+    </form></div>
+    <div id="categories-3" class="widget-item widget_categories"><h3 style=" background-color: lawngreen; color: white; font-family: 'Poppins' ;padding: 8px;
+        ;" class="widget-title">Recent Post</h3>
+    <ul>
+    <li class="cat-item cat-item-24"><img src="assets/img/image 6.png" style="height: 70px; border-radius: 5px; "  alt=""> <span style="color: black; margin-left: 10px; " >Is It Time to Switch to a New 
+        SEO Tool?</span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: rgb(2, 2, 2);"></i> <span style="color: rgb(7, 7, 7); margin-left: 5px;">  16 Dec, 2022</span></li>
+        <li class="cat-item cat-item-24"><img src="assets/img/image 6 (4).png" style="height: 70px; border-radius: 5px; "  alt=""> <span style="color: black; margin-left: 10px; " >Digital Marketing Agency
+            Pricing Guide</span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: rgb(2, 2, 2);">  </i> <span style="color: rgb(7, 7, 7); margin-left: 5px;">  17 Dec, 2022</span></li>
+            <li class="cat-item cat-item-24"><img src="assets/img/image 6 (1).png" style="height: 70px; border-radius: 5px; "  alt=""> <span style="color: black; margin-left: 10px; " >Explore World’s Local & Global
+                Top Agencies</span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: rgb(2, 2, 2);">  </i> <span style="color: rgb(7, 7, 7); margin-left: 5px;">  18 Dec, 2022</span></li>
+                <li class="cat-item cat-item-24"><img src="assets/img/image 6 (3).png" style="height: 70px; border-radius: 5px; "  alt=""> <span style="color: black; margin-left: 10px; " >Is It Time to Switch to a New 
+                    SEO Tool?</span><i class="fa fa-id-card" aria-hidden="true" style="margin-left: 25px;color: rgb(2, 2, 2);"></i> <span style="color: rgb(7, 7, 7); margin-left: 5px;">  19 Dec, 2022</span></li>
+                    
+  
+    </ul>
+    </div>
+    <div id="categories-3" class="widget-item widget_categories"><h3 style=" background-color: lawngreen; color: white; font-family: 'Poppins' ;padding: 8px;
+        ;" class="widget-title">Categories</h3>
+    <ul>
+    <li class="cat-item cat-item-24"><a href="">Careers</a> (3)
+    <span class="count">3</span></li>
+    <li class="cat-item cat-item-21"><a href="">Design</a> (2)
+    <span class="count">2</span></li>
+    <li class="cat-item cat-item-28"><a href="">Digital Marketing</a> (2)
+    <span class="count">2</span></li>
+    <li class="cat-item cat-item-23"><a href="">UX UI Design</a> (2)
+    <span class="count">2</span></li>
+    <li class="cat-item cat-item-20"><a href="">SEO Tools</a> (2)
+    <span class="count">2</span></li>
+    <li class="cat-item cat-item-1"><a href="">Link Buliding</a> (2)
+    <span class="count">2</span></li>
+    <li class="cat-item cat-item-1"><a href="">Web Design & Development</a> (2)
+        <span class="count">2</span></li>
+    </ul>
+    </div>
+    <div id="tag_cloud-2" class="widget-item widget_tag_cloud"><h3 style=" background-color: lawngreen; color: white; font-family: 'Poppins' ;padding: 8px;
+        ;" class="widget-title"> Agency</h3>
+        <div class="tagcloud"><a href="" class="tag-cloud-link tag-link-39 tag-link-position-1" style="font-size: 4pt;" aria-label="Boat (1 item)">Business</a>
+    <a href="" class="tag-cloud-link tag-link-38 tag-link-position-2" style="font-size: 4pt;" aria-label="Dogs (1 item)">Digital</a>
+    <a href="" class="tag-cloud-link tag-link-36 tag-link-position-3" style="font-size: 4pt;" aria-label="Team (1 item)">Engagement</a>
+    <a href="" class="tag-cloud-link tag-link-35 tag-link-position-4" style="font-size: 4pt;" aria-label="Travel (1 item)">Travel</a>
+    <a href="" class="tag-cloud-link tag-link-37 tag-link-position-5" style="font-size: 4pt;" aria-label="Watchers (1 item)">Marketing</a>
+    <a href="" class="tag-cloud-link tag-link-37 tag-link-position-5" style="font-size: 4pt;" aria-label="Watchers (1 item)">Design</a></div>
+    </div> 
+  
+
+</body></html>
